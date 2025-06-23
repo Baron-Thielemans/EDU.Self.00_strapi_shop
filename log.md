@@ -1,5 +1,5 @@
 #
-16:05
+53:27
 
 
 ## Prep
@@ -20,6 +20,19 @@ npm install zod
 npm install prisma -D
 npm install @prisma/client
 ```
+
+### Important fix
+
+Error:
+```txt
+Module '"@prisma/client"' has no exported member 'User'
+```
+
+```txt
+i fix that issue only reload window in vscode
+ctrl+shift+p then type reload window then hit enter
+```
+
 
 ### Source
 
